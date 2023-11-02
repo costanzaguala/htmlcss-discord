@@ -70,6 +70,16 @@ html {
     font-size: larger;
   }
 
+  .button-blu {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: #7389DA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: larger;
+  }
+
 /* HEADER */
 
 .header1 .container .login-container {
@@ -138,6 +148,46 @@ main > section:nth-child(even) {
     background-color: #D3D3D3;
 }
 
+main section .col-2-5 h2{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+main section .col-2-5 p {
+    font-size: 20px;
+}
+
+main section .sezione-1 h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+main section .sezione-1 p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+main section .sezione-2 img {
+    width: 1200px;
+}
+
+main section .sezione-3 {
+    text-align: center;
+}
+
+main section .sezione-3 h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    background-image: url("../img/stars.svg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 /* FOOTER */
 
 footer {
@@ -194,20 +244,20 @@ hr {
 }
 
 .debug main section .row .col-3-5 {
-    background-color: #1D90FF;
-    border: 1px dashed black;
+    /* background-color: #1D90FF;
+    border: 1px dashed black; */
     min-height: 400px;
 }
 
 .debug main .row .col-2-5 {
-    background-color: #FFC0CA;
-    border: 1px dashed black;
+    /* background-color: #FFC0CA;
+    border: 1px dashed black; */
     min-height: 400px;
 }
 
 .debug main .sezione-2 {
-    background-color: #228B21;
-    border: 1px dashed black;
+    /* background-color: #228B21;
+    border: 1px dashed black; */
     min-height: 400px;
 }
 
