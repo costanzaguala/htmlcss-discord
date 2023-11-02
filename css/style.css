@@ -50,36 +50,83 @@ html {
     width: calc((100% / 4) * 3);
 }
 
+.button-piccolo {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: small;
+  }
+
+.button-invertito {
+    display: inline-block;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: larger;
+  }
+
 /* HEADER */
 
-.header1 .menu-container {
-    height: 40px;
-}
-
-.header1 .menu-container > * {
-    padding: 10px;
+.header1 .container .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .header1 .link-container {
     text-align: center;
+    padding-top: 10px;
 }
 
-.header1 .login-container {
-    text-align: right;
+.row .menu-container .logo img {
+    height: 40px;
+    padding: 10px;
 }
 
 .header1 .link-container ul li {
     display: inline-block;
+    margin: 0 15px;
 }
 
 .header1 .link-container a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-.header2 {
+.header2 { 
     padding: 100px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
+
+.header2 .homepage-text .button-piccolo {
+    margin-right: 10px;
+    font-size: larger;
+}
+
+.header2 .homepage-text {
+    text-align: center;
+}
+
+
+.header2 .homepage-text h1 {
+    font-size: 50px;
+    margin: 50px;
+    color: white;
+}
+
+.header2 .homepage-text p {
+    font-size: 20px;
+    margin: 30px;
+    color: white;
+    line-height: 1cm;
+}
+
 
 /* MAIN */
 
@@ -119,6 +166,11 @@ hr {
 /* DEBUG */
 
 .debug .header1 {
+    background-color: #265EE9;
+    padding: 10px 0px;
+}
+
+/* .debug .header1 {
     background-color: #AED9E5;
     padding: 10px 0px;
 }
@@ -129,15 +181,15 @@ hr {
 
 .debug .header1 .row > * {
     border: 1px dashed black;
-}
+} */
 
 .debug .header2 {
     background-color: #08008B;
 }
 
-.debug .header2 .homepage-image{
-    background-color: #EE81ED;
-    border: 1px dashed black;
+.debug .header2 .homepage-text{
+    /* background-color: #EE81ED;
+    border: 1px dashed black; */
     min-height: 400px;
 }
 
